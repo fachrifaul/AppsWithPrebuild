@@ -1,2 +1,4 @@
+xcshareddata
+*.xcuserstate
 Pods/*
 derived_data/
