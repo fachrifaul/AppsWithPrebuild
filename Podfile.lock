@@ -1,0 +1,16 @@
+PODS:
+  - FFLog (0.1.2)
+
+DEPENDENCIES:
+  - FFLog
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - FFLog
+
+SPEC CHECKSUMS:
+  FFLog: 0fef641ec1fffda05ddc090b6c08070d555b5f6e
+
+PODFILE CHECKSUM: 35d5efb36a325ea408df5e5d4f254ef653e7723f
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,11 @@
+framework module DynamicPrebuild {
+  umbrella header "DynamicPrebuild.h"
+
+  export *
+  module * { export * }
+}
+
+module DynamicPrebuild.Swift {
+    header "DynamicPrebuild-Swift.h"
+    requires objc
+}
