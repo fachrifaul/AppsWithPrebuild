@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93FBDBFF21C81742A5896939 /* Dynamic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861584C725A2A801C3EA849D /* Dynamic1.swift */; };
-		F03AF938127E826219591840 /* Pods_Dynamic1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67526F1CCDCBC629FDAC32A /* Pods_Dynamic1.framework */; };
+		C8B54D87E5A7D2DC21DBC4BD /* Pods_Dynamic1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24EBCAF9F965CDA699B1AF2 /* Pods_Dynamic1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +27,9 @@
 		0DBAEDD0397D1602D556B1DD /* Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861584C725A2A801C3EA849D /* Dynamic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic1.swift; sourceTree = "<group>"; };
 		959F35B32B81EF024CD750D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A75D4E08BBA35E5AE433FC66 /* Pods-Dynamic1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic1.debug.xcconfig"; path = "Target Support Files/Pods-Dynamic1/Pods-Dynamic1.debug.xcconfig"; sourceTree = "<group>"; };
-		B84E03D643508982F89415BE /* Pods-Dynamic1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic1.release.xcconfig"; path = "Target Support Files/Pods-Dynamic1/Pods-Dynamic1.release.xcconfig"; sourceTree = "<group>"; };
-		D67526F1CCDCBC629FDAC32A /* Pods_Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE64AD18BF5B5C9B1982914C /* Pods-Dynamic1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic1.release.xcconfig"; path = "Target Support Files/Pods-Dynamic1/Pods-Dynamic1.release.xcconfig"; sourceTree = "<group>"; };
+		C24EBCAF9F965CDA699B1AF2 /* Pods_Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92A7D4C3ABF479286210291 /* Pods-Dynamic1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic1.debug.xcconfig"; path = "Target Support Files/Pods-Dynamic1/Pods-Dynamic1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03AF938127E826219591840 /* Pods_Dynamic1.framework in Frameworks */,
+				C8B54D87E5A7D2DC21DBC4BD /* Pods_Dynamic1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +53,16 @@
 			path = Dynamic1;
 			sourceTree = "<group>";
 		};
+		198BAB11C4395A20D4BEA5EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D92A7D4C3ABF479286210291 /* Pods-Dynamic1.debug.xcconfig */,
+				BE64AD18BF5B5C9B1982914C /* Pods-Dynamic1.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		389269AABB2292578BAD1609 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +74,7 @@
 		454C4501B71CF45FE13B3ABE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D67526F1CCDCBC629FDAC32A /* Pods_Dynamic1.framework */,
+				C24EBCAF9F965CDA699B1AF2 /* Pods_Dynamic1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,18 +85,8 @@
 				F4DC5B21E9AE5F3AF65735F8 /* Project */,
 				454C4501B71CF45FE13B3ABE /* Frameworks */,
 				389269AABB2292578BAD1609 /* Products */,
-				8F6D7BFD60AE1B27BF655B32 /* Pods */,
+				198BAB11C4395A20D4BEA5EE /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		8F6D7BFD60AE1B27BF655B32 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A75D4E08BBA35E5AE433FC66 /* Pods-Dynamic1.debug.xcconfig */,
-				B84E03D643508982F89415BE /* Pods-Dynamic1.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		F4DC5B21E9AE5F3AF65735F8 /* Project */ = {
@@ -104,7 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33C4F68AA9FF6A362C42F92D /* Build configuration list for PBXNativeTarget "Dynamic1" */;
 			buildPhases = (
-				C497676755FC25BD682399D3 /* [CP] Check Pods Manifest.lock */,
+				4E2B9A587301B7375BAB67B3 /* [CP] Check Pods Manifest.lock */,
 				5F8AAE2D1622AAD97239F763 /* Sources */,
 				F98CF7461D7B55077395332A /* Resources */,
 				B6241CD50F0FF60CAB372A64 /* Embed Precompiled Frameworks */,
@@ -158,21 +158,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B6241CD50F0FF60CAB372A64 /* Embed Precompiled Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Precompiled Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"Skipping, nothing to be embedded.\"";
-		};
-		C497676755FC25BD682399D3 /* [CP] Check Pods Manifest.lock */ = {
+		4E2B9A587301B7375BAB67B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +180,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B6241CD50F0FF60CAB372A64 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,7 +210,7 @@
 /* Begin XCBuildConfiguration section */
 		6A9AB6E36052F019186F11A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B84E03D643508982F89415BE /* Pods-Dynamic1.release.xcconfig */;
+			baseConfigurationReference = BE64AD18BF5B5C9B1982914C /* Pods-Dynamic1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -232,7 +232,7 @@
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.1;
+				SWIFT_VERSION = 5.2.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -291,7 +291,7 @@
 		};
 		BCEF0C938EF793E5777C6519 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75D4E08BBA35E5AE433FC66 /* Pods-Dynamic1.debug.xcconfig */;
+			baseConfigurationReference = D92A7D4C3ABF479286210291 /* Pods-Dynamic1.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -314,7 +314,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.1;
+				SWIFT_VERSION = 5.2.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

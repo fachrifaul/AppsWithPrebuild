@@ -1,16 +1,35 @@
 PODS:
   - FFLog (0.1.2)
+  - LocalPod1 (1.0.0):
+    - LocalPod2
+    - NetworkingSwift
+  - LocalPod2 (1.0.0)
+  - NetworkingSwift (1.0.0)
 
 DEPENDENCIES:
   - FFLog
+  - LocalPod1 (from `LocalPod1`)
+  - LocalPod2 (from `LocalPod2`)
+  - NetworkingSwift (from `MergedPods/NetworkingSwift`)
 
 SPEC REPOS:
   https://cdn.cocoapods.org/:
     - FFLog
 
+EXTERNAL SOURCES:
+  LocalPod1:
+    :path: LocalPod1
+  LocalPod2:
+    :path: LocalPod2
+  NetworkingSwift:
+    :path: MergedPods/NetworkingSwift
+
 SPEC CHECKSUMS:
   FFLog: 0fef641ec1fffda05ddc090b6c08070d555b5f6e
+  LocalPod1: a15f88cc4f96574a276f444908d2973a0dadddcd
+  LocalPod2: 92d75cbc5473f9fdfe87b868d2812f88dc256133
+  NetworkingSwift: 04440c4897f11223473d50478cc0f54bcff9aa02
 
-PODFILE CHECKSUM: 35d5efb36a325ea408df5e5d4f254ef653e7723f
+PODFILE CHECKSUM: 8b90fb7d98e23270395b9b538fae9b8b990865c3
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4

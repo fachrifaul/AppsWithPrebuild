@@ -2,3 +2,5 @@ xcshareddata
 *.xcuserstate
 Pods/*
 derived_data/
+MergeCache/
+MergedPods/

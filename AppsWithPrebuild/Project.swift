@@ -16,7 +16,8 @@ let project = Project(
             ],
             dependencies: [
                 .cocoapods(path: ".."),
-                .framework(path: "../build/universal/DynamicPrebuild.framework"),
+               .framework(path: "../build/universal/DynamicPrebuild.framework"),
+                // .project(target: "DynamicPrebuild", path: "../DynamicPrebuild"),
                 .project(target: "Dynamic1", path: "../Dynamic1"),
                 .project(target: "Dynamic2", path: "../Dynamic2"),
                 .project(target: "StaticFramework", path: "../StaticFramework"),

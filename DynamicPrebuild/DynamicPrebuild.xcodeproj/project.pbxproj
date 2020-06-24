@@ -7,106 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0645047D1156B7112348C3DB /* Pods_DynamicPrebuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B047E481C60B6F042F02A93 /* Pods_DynamicPrebuild.framework */; };
-		A2E8BAAB2421E067003D9DE4 /* DynamicPrebuild.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E8BAA92421E067003D9DE4 /* DynamicPrebuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2E8BAB22421E070003D9DE4 /* DynamicPrebuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BAB12421E070003D9DE4 /* DynamicPrebuild.swift */; };
-		A2E8BAB42421E0BE003D9DE4 /* Dynamic1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E8BAB32421E0BE003D9DE4 /* Dynamic1.framework */; };
+		125DE95B8E483E860650AC5C /* Pods_DynamicPrebuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A997C8392E9BDFC757F7A729 /* Pods_DynamicPrebuild.framework */; };
+		8D831EDE682AA9031A291625 /* Dynamic1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB35B5E53B976C623C7BB48 /* Dynamic1.framework */; };
+		99BB04A08480B849851865A5 /* DynamicPrebuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49645BF3AFD6F99096100184 /* DynamicPrebuild.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4B79F897D449F04C03882219 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3B047E481C60B6F042F02A93 /* Pods_DynamicPrebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicPrebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F3B90DC05CFE1BEEF797197 /* Pods-DynamicPrebuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicPrebuild.debug.xcconfig"; path = "Target Support Files/Pods-DynamicPrebuild/Pods-DynamicPrebuild.debug.xcconfig"; sourceTree = "<group>"; };
-		A2E8BAA62421E067003D9DE4 /* DynamicPrebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicPrebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2E8BAA92421E067003D9DE4 /* DynamicPrebuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicPrebuild.h; sourceTree = "<group>"; };
-		A2E8BAAA2421E067003D9DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2E8BAB12421E070003D9DE4 /* DynamicPrebuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPrebuild.swift; sourceTree = "<group>"; };
-		A2E8BAB32421E0BE003D9DE4 /* Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDC528205A85D707DF91128E /* Pods-DynamicPrebuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicPrebuild.release.xcconfig"; path = "Target Support Files/Pods-DynamicPrebuild/Pods-DynamicPrebuild.release.xcconfig"; sourceTree = "<group>"; };
+		0F954851A42B0021B371A986 /* DynamicPrebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicPrebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF7D774FC95DB53B0486CC /* Pods-DynamicPrebuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicPrebuild.debug.xcconfig"; path = "Target Support Files/Pods-DynamicPrebuild/Pods-DynamicPrebuild.debug.xcconfig"; sourceTree = "<group>"; };
+		49645BF3AFD6F99096100184 /* DynamicPrebuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPrebuild.swift; sourceTree = "<group>"; };
+		A11511F8096C693808426065 /* Pods-DynamicPrebuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicPrebuild.release.xcconfig"; path = "Target Support Files/Pods-DynamicPrebuild/Pods-DynamicPrebuild.release.xcconfig"; sourceTree = "<group>"; };
+		A997C8392E9BDFC757F7A729 /* Pods_DynamicPrebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicPrebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8086608FF39785C9345F0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DBB35B5E53B976C623C7BB48 /* Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2E8BAA32421E067003D9DE4 /* Frameworks */ = {
+		9AFEA1838795191CA60BDF6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E8BAB42421E0BE003D9DE4 /* Dynamic1.framework in Frameworks */,
-				0645047D1156B7112348C3DB /* Pods_DynamicPrebuild.framework in Frameworks */,
+				8D831EDE682AA9031A291625 /* Dynamic1.framework in Frameworks */,
+				125DE95B8E483E860650AC5C /* Pods_DynamicPrebuild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A2E8BA9C2421E067003D9DE4 = {
+		08FAF2002127D065BD9B42FE = {
 			isa = PBXGroup;
 			children = (
-				A2E8BAA82421E067003D9DE4 /* DynamicPrebuild */,
-				A2E8BAA72421E067003D9DE4 /* Products */,
-				B89357493049EF5B4E5B81AA /* Pods */,
-				D167A05F3A6D15C1283A07D1 /* Frameworks */,
+				8493AD31A072B1C6A8C8E67A /* Project */,
+				9BDB6CBD7463790B877EA326 /* Frameworks */,
+				B5FFB963FC2BE7F758FA62CF /* Products */,
+				5E8AF3859B2CEBD6DE33486B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		A2E8BAA72421E067003D9DE4 /* Products */ = {
+		5E8AF3859B2CEBD6DE33486B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2E8BAA62421E067003D9DE4 /* DynamicPrebuild.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A2E8BAA82421E067003D9DE4 /* DynamicPrebuild */ = {
-			isa = PBXGroup;
-			children = (
-				A2E8BAA92421E067003D9DE4 /* DynamicPrebuild.h */,
-				A2E8BAAA2421E067003D9DE4 /* Info.plist */,
-				A2E8BAB12421E070003D9DE4 /* DynamicPrebuild.swift */,
-			);
-			path = DynamicPrebuild;
-			sourceTree = "<group>";
-		};
-		B89357493049EF5B4E5B81AA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F3B90DC05CFE1BEEF797197 /* Pods-DynamicPrebuild.debug.xcconfig */,
-				EDC528205A85D707DF91128E /* Pods-DynamicPrebuild.release.xcconfig */,
+				3FEF7D774FC95DB53B0486CC /* Pods-DynamicPrebuild.debug.xcconfig */,
+				A11511F8096C693808426065 /* Pods-DynamicPrebuild.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
-		D167A05F3A6D15C1283A07D1 /* Frameworks */ = {
+		618FB9F729D86D2D5D03F72E /* DynamicPrebuild */ = {
 			isa = PBXGroup;
 			children = (
-				A2E8BAB32421E0BE003D9DE4 /* Dynamic1.framework */,
-				3B047E481C60B6F042F02A93 /* Pods_DynamicPrebuild.framework */,
+				49645BF3AFD6F99096100184 /* DynamicPrebuild.swift */,
+				B8086608FF39785C9345F0FC /* Info.plist */,
+			);
+			path = DynamicPrebuild;
+			sourceTree = "<group>";
+		};
+		8493AD31A072B1C6A8C8E67A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				618FB9F729D86D2D5D03F72E /* DynamicPrebuild */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		9BDB6CBD7463790B877EA326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A997C8392E9BDFC757F7A729 /* Pods_DynamicPrebuild.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B5FFB963FC2BE7F758FA62CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB35B5E53B976C623C7BB48 /* Dynamic1.framework */,
+				0F954851A42B0021B371A986 /* DynamicPrebuild.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		A2E8BAA12421E067003D9DE4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2E8BAAB2421E067003D9DE4 /* DynamicPrebuild.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		A2E8BAA52421E067003D9DE4 /* DynamicPrebuild */ = {
+		295E241D1BDC2F5177D07B50 /* DynamicPrebuild */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2E8BAAE2421E067003D9DE4 /* Build configuration list for PBXNativeTarget "DynamicPrebuild" */;
+			buildConfigurationList = 815C287A1F52AD11AF5B0630 /* Build configuration list for PBXNativeTarget "DynamicPrebuild" */;
 			buildPhases = (
-				5B1995F0912F190987E585AE /* [CP] Check Pods Manifest.lock */,
-				A2E8BAA12421E067003D9DE4 /* Headers */,
-				A2E8BAA22421E067003D9DE4 /* Sources */,
-				A2E8BAA32421E067003D9DE4 /* Frameworks */,
-				A2E8BAA42421E067003D9DE4 /* Resources */,
+				BFF1DDD81A7206470EAFE639 /* [CP] Check Pods Manifest.lock */,
+				268D7048ACE84CCCB6C6A5F2 /* Sources */,
+				6A67FD97D168E43F02AFCEAA /* Resources */,
+				A95E4ABE5D0FCD6F8CADC175 /* Embed Precompiled Frameworks */,
+				4B79F897D449F04C03882219 /* Embed Frameworks */,
+				9AFEA1838795191CA60BDF6E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,44 +121,38 @@
 			);
 			name = DynamicPrebuild;
 			productName = DynamicPrebuild;
-			productReference = A2E8BAA62421E067003D9DE4 /* DynamicPrebuild.framework */;
+			productReference = 0F954851A42B0021B371A986 /* DynamicPrebuild.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A2E8BA9D2421E067003D9DE4 /* Project object */ = {
+		76BBEB76828A509742CEE037 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Fachri Febrian";
 				TargetAttributes = {
-					A2E8BAA52421E067003D9DE4 = {
-						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
-					};
 				};
 			};
-			buildConfigurationList = A2E8BAA02421E067003D9DE4 /* Build configuration list for PBXProject "DynamicPrebuild" */;
+			buildConfigurationList = 5588D282DB5DD99B47666C10 /* Build configuration list for PBXProject "DynamicPrebuild" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = A2E8BA9C2421E067003D9DE4;
-			productRefGroup = A2E8BAA72421E067003D9DE4 /* Products */;
+			mainGroup = 08FAF2002127D065BD9B42FE;
+			productRefGroup = B5FFB963FC2BE7F758FA62CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2E8BAA52421E067003D9DE4 /* DynamicPrebuild */,
+				295E241D1BDC2F5177D07B50 /* DynamicPrebuild */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A2E8BAA42421E067003D9DE4 /* Resources */ = {
+		6A67FD97D168E43F02AFCEAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -161,7 +162,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B1995F0912F190987E585AE /* [CP] Check Pods Manifest.lock */ = {
+		A95E4ABE5D0FCD6F8CADC175 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		BFF1DDD81A7206470EAFE639 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,18 +201,50 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A2E8BAA22421E067003D9DE4 /* Sources */ = {
+		268D7048ACE84CCCB6C6A5F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E8BAB22421E070003D9DE4 /* DynamicPrebuild.swift in Sources */,
+				99BB04A08480B849851865A5 /* DynamicPrebuild.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A2E8BAAC2421E067003D9DE4 /* Debug */ = {
+		5A351441D87966AD535B3FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEF7D774FC95DB53B0486CC /* Pods-DynamicPrebuild.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DynamicPrebuild/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.DynamicPrebuild;
+				PRODUCT_NAME = DynamicPrebuild;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A292381E764CE5D0870DAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +277,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -248,19 +294,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A2E8BAAD2421E067003D9DE4 /* Release */ = {
+		CEF7AC90F0FBAF6E7CB2EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +333,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -305,24 +344,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A2E8BAAF2421E067003D9DE4 /* Debug */ = {
+		FB6AE4850DDEE2BA7544B7CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F3B90DC05CFE1BEEF797197 /* Pods-DynamicPrebuild.debug.xcconfig */;
+			baseConfigurationReference = A11511F8096C693808426065 /* Pods-DynamicPrebuild.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -334,64 +367,42 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fachrifaul.ios.DynamicPrebuild;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.DynamicPrebuild;
+				PRODUCT_NAME = DynamicPrebuild;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.2.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A2E8BAB02421E067003D9DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC528205A85D707DF91128E /* Pods-DynamicPrebuild.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DynamicPrebuild/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fachrifaul.ios.DynamicPrebuild;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2E8BAA02421E067003D9DE4 /* Build configuration list for PBXProject "DynamicPrebuild" */ = {
+		5588D282DB5DD99B47666C10 /* Build configuration list for PBXProject "DynamicPrebuild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2E8BAAC2421E067003D9DE4 /* Debug */,
-				A2E8BAAD2421E067003D9DE4 /* Release */,
+				7A292381E764CE5D0870DAEE /* Debug */,
+				CEF7AC90F0FBAF6E7CB2EAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2E8BAAE2421E067003D9DE4 /* Build configuration list for PBXNativeTarget "DynamicPrebuild" */ = {
+		815C287A1F52AD11AF5B0630 /* Build configuration list for PBXNativeTarget "DynamicPrebuild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2E8BAAF2421E067003D9DE4 /* Debug */,
-				A2E8BAB02421E067003D9DE4 /* Release */,
+				5A351441D87966AD535B3FF0 /* Debug */,
+				FB6AE4850DDEE2BA7544B7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A2E8BA9D2421E067003D9DE4 /* Project object */;
+	rootObject = 76BBEB76828A509742CEE037 /* Project object */;
 }

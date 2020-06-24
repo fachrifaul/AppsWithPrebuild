@@ -1,6 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '12.0'
 
+plugin 'cocoapods-pod-merge'
+
 use_frameworks!
 
 workspace 'AppsWithPrebuild'
@@ -12,7 +14,9 @@ end
 target 'AppsWithPrebuild' do
   project 'AppsWithPrebuild/AppsWithPrebuild.xcodeproj'
   dynamicPrebuild_pod
-  
+  pod 'NetworkingSwift', path: 'MergedPods/NetworkingSwift'
+  pod 'LocalPod1', :path => 'LocalPod1'
+  pod 'LocalPod2', :path => 'LocalPod2'
 end
 
 target 'Dynamic1' do
@@ -24,10 +28,10 @@ target 'Dynamic2' do
   dynamicPrebuild_pod
 end
 
-#target 'DynamicPrebuild' do
-#  project 'DynamicPrebuild/DynamicPrebuild.xcodeproj'
-#  dynamicPrebuild_pod
-#end
+# target 'DynamicPrebuild' do
+#   project 'DynamicPrebuild/DynamicPrebuild.xcodeproj'
+#   dynamicPrebuild_pod
+# end
 
 
 target 'StaticFramework' do

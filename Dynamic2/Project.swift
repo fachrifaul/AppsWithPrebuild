@@ -12,6 +12,7 @@ let project = Project(
                sources: "Dynamic2/**",
                dependencies: [
                 .project(target: "Dynamic1", path: "../Dynamic1"),
+                // .project(target: "DynamicPrebuild", path: "../DynamicPrebuild"),
                 .framework(path: "../build/universal/DynamicPrebuild.framework"),
             ]
         )

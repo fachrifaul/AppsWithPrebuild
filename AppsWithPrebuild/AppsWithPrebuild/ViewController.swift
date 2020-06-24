@@ -8,14 +8,24 @@
 
 import UIKit
 import StaticFramework
-//import DynamicPrebuild
+import DynamicPrebuild
+import LocalPod1
 
 class ViewController: UIViewController {
-
+    
+    var reachability = LocalPod1.reachability
+    var dateFormat = LocalPod1.dateFormat
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         StaticFramework.hello()
-//        DynamicPrebuild.hello()
+        print("=====")
+        DynamicPrebuild.hello()
+        print("=====")
+        LocalPod1.hello()
+        
+        print(reachability.debugDescription)
+        print(dateFormat.debugDescription)
     }
 
 }

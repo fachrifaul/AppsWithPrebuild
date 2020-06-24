@@ -6,6 +6,9 @@ let workspace = Workspace(
         "AppsWithPrebuild",
         "Dynamic1",
         "Dynamic2",
-        "StaticFramework"
+        "StaticFramework",
+        // "DynamicPrebuild",
+        // "LocalPod1",
+        // "LocalPod2"
     ]
 )

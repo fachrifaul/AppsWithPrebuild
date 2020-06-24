@@ -1,0 +1,6 @@
+group 'NetworkingSwift'
+    swift_version! '5.0'
+
+    pod 'Alamofire', '4.9.1'
+    pod 'ObjectMapper', '3.5.1'
+end
