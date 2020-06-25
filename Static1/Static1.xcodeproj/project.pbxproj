@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31C482B1D9CDAFD84532BB5F /* Pods_Static1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A438F0F57400136CD9065D7 /* Pods_Static1.framework */; };
+		058B6205EF3CC739C89A5C80 /* Pods_Static1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C86085FF0730C221B2B94EF /* Pods_Static1.framework */; };
 		BB29BAEF73197E28554202D6 /* Static1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B001A314ED1CE5161C8A7D2 /* Static1.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +24,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C86085FF0730C221B2B94EF /* Pods_Static1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Static1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8AC543A6EE41D303C5F9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		666F5206B18A52E74B32E1EF /* Pods-Static1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Static1.release.xcconfig"; path = "Target Support Files/Pods-Static1/Pods-Static1.release.xcconfig"; sourceTree = "<group>"; };
-		6A438F0F57400136CD9065D7 /* Pods_Static1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Static1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024978A6EC2140C1B6763FD /* Pods-Static1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Static1.debug.xcconfig"; path = "Target Support Files/Pods-Static1/Pods-Static1.debug.xcconfig"; sourceTree = "<group>"; };
 		6B001A314ED1CE5161C8A7D2 /* Static1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Static1.swift; sourceTree = "<group>"; };
+		7BC42B77EB9A27E1DF56D47E /* Pods-Static1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Static1.release.xcconfig"; path = "Target Support Files/Pods-Static1/Pods-Static1.release.xcconfig"; sourceTree = "<group>"; };
 		C6730EBA205ED0C77B71A0D8 /* Static1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Static1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED4C72524308C8BC3D9AC820 /* Pods-Static1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Static1.debug.xcconfig"; path = "Target Support Files/Pods-Static1/Pods-Static1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C482B1D9CDAFD84532BB5F /* Pods_Static1.framework in Frameworks */,
+				058B6205EF3CC739C89A5C80 /* Pods_Static1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 				71A2E5A344D88677793BDB10 /* Project */,
 				7A992B02F3BCDB84C2DE9EE6 /* Frameworks */,
 				922A2EC45AF9BBF964B068A3 /* Products */,
-				DDAA0827014D32F960AE1371 /* Pods */,
+				C16ADFE3B81D76B68193C014 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +65,7 @@
 		7A992B02F3BCDB84C2DE9EE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A438F0F57400136CD9065D7 /* Pods_Static1.framework */,
+				0C86085FF0730C221B2B94EF /* Pods_Static1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +78,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C16ADFE3B81D76B68193C014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3024978A6EC2140C1B6763FD /* Pods-Static1.debug.xcconfig */,
+				7BC42B77EB9A27E1DF56D47E /* Pods-Static1.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		C818CC116E929C4DF9B16821 /* Static1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,16 +97,6 @@
 			path = Static1;
 			sourceTree = "<group>";
 		};
-		DDAA0827014D32F960AE1371 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ED4C72524308C8BC3D9AC820 /* Pods-Static1.debug.xcconfig */,
-				666F5206B18A52E74B32E1EF /* Pods-Static1.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,7 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25D45C6C50484CDB241FC956 /* Build configuration list for PBXNativeTarget "Static1" */;
 			buildPhases = (
-				CAF13189EE81E70179561861 /* [CP] Check Pods Manifest.lock */,
+				97D0E6C47F6E4FDBD4FBA3B4 /* [CP] Check Pods Manifest.lock */,
 				7767572485A2A6F543E8D1E5 /* Sources */,
 				1D59501D79A45708AC888BE6 /* Resources */,
 				85B79AAE443D893258F396C4 /* Embed Precompiled Frameworks */,
@@ -172,7 +172,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo \"Skipping, nothing to be embedded.\"";
 		};
-		CAF13189EE81E70179561861 /* [CP] Check Pods Manifest.lock */ = {
+		97D0E6C47F6E4FDBD4FBA3B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +210,7 @@
 /* Begin XCBuildConfiguration section */
 		14AA9893B4EAF7C3FA56BE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED4C72524308C8BC3D9AC820 /* Pods-Static1.debug.xcconfig */;
+			baseConfigurationReference = 3024978A6EC2140C1B6763FD /* Pods-Static1.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -349,7 +349,7 @@
 		};
 		FA089F1D97F2E5BFF172B5DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 666F5206B18A52E74B32E1EF /* Pods-Static1.release.xcconfig */;
+			baseConfigurationReference = 7BC42B77EB9A27E1DF56D47E /* Pods-Static1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;

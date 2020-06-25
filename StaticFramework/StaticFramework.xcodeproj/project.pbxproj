@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05D30716F8BC5ADE5D1AB4A1 /* Dynamic1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3A8C1B0FCE97E9DA07C793 /* Dynamic1.framework */; };
-		0B841C2ABBE5D28CC0A29F7E /* Pods_StaticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D783D9F50AC142D1EAA9DC9 /* Pods_StaticFramework.framework */; };
+		A506073D88450A2BD7D038F3 /* Pods_StaticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9646C2E53C78DBF7C55A2E47 /* Pods_StaticFramework.framework */; };
 		A827BE0AB9C28B17FA2034FD /* DynamicPrebuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB56B98A9BED7443CF9EA23 /* DynamicPrebuild.framework */; };
 		FCBA407B8AFD1F6C244B26A6 /* StaticFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640B865AE9A3DC8FBD45CC8B /* StaticFramework.swift */; };
 /* End PBXBuildFile section */
@@ -27,12 +27,12 @@
 
 /* Begin PBXFileReference section */
 		04C024550EAA27338809D56E /* StaticFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StaticFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1309C98F91D23D9D7F79F791 /* Pods-StaticFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticFramework.release.xcconfig"; path = "Target Support Files/Pods-StaticFramework/Pods-StaticFramework.release.xcconfig"; sourceTree = "<group>"; };
+		219957DD33F6A461E72B6655 /* Pods-StaticFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticFramework.debug.xcconfig"; path = "Target Support Files/Pods-StaticFramework/Pods-StaticFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		22C6E33576C08E6E15776604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2D783D9F50AC142D1EAA9DC9 /* Pods_StaticFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB56B98A9BED7443CF9EA23 /* DynamicPrebuild.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamicPrebuild.framework; sourceTree = "<group>"; };
 		640B865AE9A3DC8FBD45CC8B /* StaticFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFramework.swift; sourceTree = "<group>"; };
-		67A1B4F1C37EA4B8692D4E01 /* Pods-StaticFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticFramework.release.xcconfig"; path = "Target Support Files/Pods-StaticFramework/Pods-StaticFramework.release.xcconfig"; sourceTree = "<group>"; };
-		788896ECBB112B9F54F1257C /* Pods-StaticFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticFramework.debug.xcconfig"; path = "Target Support Files/Pods-StaticFramework/Pods-StaticFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9646C2E53C78DBF7C55A2E47 /* Pods_StaticFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3A8C1B0FCE97E9DA07C793 /* Dynamic1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dynamic1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 			files = (
 				05D30716F8BC5ADE5D1AB4A1 /* Dynamic1.framework in Frameworks */,
 				A827BE0AB9C28B17FA2034FD /* DynamicPrebuild.framework in Frameworks */,
-				0B841C2ABBE5D28CC0A29F7E /* Pods_StaticFramework.framework in Frameworks */,
+				A506073D88450A2BD7D038F3 /* Pods_StaticFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +64,18 @@
 				55ACF2F0CC61FF5D9D56D9DC /* Project */,
 				A0AF9197B073517EBC2DBF5D /* Frameworks */,
 				A6FE911F4C6C1A2DD02FDEB5 /* Products */,
-				F05171D1F3AEC3D52D80C2FC /* Pods */,
+				49F69006AC1FE876F0F01156 /* Pods */,
 			);
+			sourceTree = "<group>";
+		};
+		49F69006AC1FE876F0F01156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				219957DD33F6A461E72B6655 /* Pods-StaticFramework.debug.xcconfig */,
+				1309C98F91D23D9D7F79F791 /* Pods-StaticFramework.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		55ACF2F0CC61FF5D9D56D9DC /* Project */ = {
@@ -89,7 +99,7 @@
 		A0AF9197B073517EBC2DBF5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D783D9F50AC142D1EAA9DC9 /* Pods_StaticFramework.framework */,
+				9646C2E53C78DBF7C55A2E47 /* Pods_StaticFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,16 +122,6 @@
 			path = StaticFramework;
 			sourceTree = "<group>";
 		};
-		F05171D1F3AEC3D52D80C2FC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				788896ECBB112B9F54F1257C /* Pods-StaticFramework.debug.xcconfig */,
-				67A1B4F1C37EA4B8692D4E01 /* Pods-StaticFramework.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,7 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68F36F0C07FDBDB9F262695 /* Build configuration list for PBXNativeTarget "StaticFramework" */;
 			buildPhases = (
-				02A633D0C5881277EDEC12C0 /* [CP] Check Pods Manifest.lock */,
+				F48CE42D286A89985D03872D /* [CP] Check Pods Manifest.lock */,
 				BB2825915470D3D2AEAE4EAA /* Sources */,
 				00D1C572F87DE55AD30C79B5 /* Resources */,
 				DCD054D8C5CDA77B600B3951 /* Embed Precompiled Frameworks */,
@@ -183,7 +183,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02A633D0C5881277EDEC12C0 /* [CP] Check Pods Manifest.lock */ = {
+		DCD054D8C5CDA77B600B3951 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		F48CE42D286A89985D03872D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,20 +219,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCD054D8C5CDA77B600B3951 /* Embed Precompiled Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Precompiled Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"Skipping, nothing to be embedded.\"";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -235,7 +235,7 @@
 /* Begin XCBuildConfiguration section */
 		62E3A4F433C4EAED68785315 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 788896ECBB112B9F54F1257C /* Pods-StaticFramework.debug.xcconfig */;
+			baseConfigurationReference = 219957DD33F6A461E72B6655 /* Pods-StaticFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -328,7 +328,7 @@
 		};
 		B40C32A9FB9789A2B44FC194 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67A1B4F1C37EA4B8692D4E01 /* Pods-StaticFramework.release.xcconfig */;
+			baseConfigurationReference = 1309C98F91D23D9D7F79F791 /* Pods-StaticFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
