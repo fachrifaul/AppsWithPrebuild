@@ -11,6 +11,9 @@
       location = "group:Dynamic2/Dynamic2.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Static1/Static1.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StaticFramework/StaticFramework.xcodeproj">
    </FileRef>
    <FileRef

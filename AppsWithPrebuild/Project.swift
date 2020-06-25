@@ -20,6 +20,7 @@ let project = Project(
                 // .project(target: "DynamicPrebuild", path: "../DynamicPrebuild"),
                 .project(target: "Dynamic1", path: "../Dynamic1"),
                 .project(target: "Dynamic2", path: "../Dynamic2"),
+                .project(target: "Static1", path: "../Static1"),
                 .project(target: "StaticFramework", path: "../StaticFramework"),
             ]
         )

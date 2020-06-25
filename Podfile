@@ -28,6 +28,11 @@ target 'Dynamic2' do
   dynamicPrebuild_pod
 end
 
+target 'Static1' do
+  project 'Static1/Static1.xcodeproj'
+  dynamicPrebuild_pod
+end
+
 # target 'DynamicPrebuild' do
 #   project 'DynamicPrebuild/DynamicPrebuild.xcodeproj'
 #   dynamicPrebuild_pod

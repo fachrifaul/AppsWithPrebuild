@@ -1,0 +1,10 @@
+
+  group 'NetworkingPods' do
+    pod 'AFNetworking'
+    pod 'CocoaAsyncSocket'
+  end
+
+  group 'ImagePods' do
+    pod 'SDWebImage'
+    pod 'FLAnimatedImage'
+  end
